@@ -56,6 +56,26 @@ Supports both:
 - ✅ MySQL — for production
 
 ---
+# 📄 Employee Report Generator
+
+This is a Spring Boot-based **PDF Report Generator** tool that connects to a MySQL database, fetches employee records, and generates professional PDF reports using iText. It also schedules automatic report generation and compresses multiple reports into a ZIP file for download.
+
+---
+
+## 🚀 Features
+
+- 🔌 Connects to MySQL for dynamic employee data
+- 🧾 Generates well-designed PDF reports with logo and footer
+- ⏳ Schedules report generation automatically (via `Timer`)
+- 📦 Zips all generated PDFs into one downloadable archive
+- 🖥️ Can be run via command-line or integrated in a UI
+- ✅ Includes JUnit test structure
+- 📁 `employees.csv` added for sample testing
+- 🖼️ `logo.png` and footer included in reports
+
+---
+
+
 
 
 
